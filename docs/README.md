@@ -1,33 +1,28 @@
 ---
 home: true
-title: Home
-heroImage: https://vuejs.press/images/hero.png
+layout: HomeLayout
+title: 欢迎来到7788博客
+heroText: 记录与分享
+tagline: 技术笔记 · 生活随笔 · 学习心得
 actions:
-  - text: Get Started
-    link: /get-started.html
+  - text: 开始阅读
+    link: /article/
     type: primary
-
-  - text: Introduction
-    link: https://vuejs.press/guide/introduction.html
+  - text: 关于本站
+    link: /about/
     type: secondary
 
 features:
-  - title: Simplicity First
-    details: Minimal setup with markdown-centered project structure helps you focus on writing.
-  - title: Vue-Powered
-    details: Enjoy the dev experience of Vue, use Vue components in markdown, and develop custom themes with Vue.
-  - title: Performant
-    details: VuePress generates pre-rendered static HTML for each page, and runs as an SPA once a page is loaded.
-  - title: Themes
-    details: Providing a default theme out of the box. You can also choose a community theme or create your own one.
-  - title: Plugins
-    details: Flexible plugin API, allowing plugins to provide lots of plug-and-play features for your site.
-  - title: Bundlers
-    details: Default bundler is Vite, while Webpack is also supported. Choose the one you like!
+  - title: 技术分享
+    details: 记录开发中的技术解决方案与最佳实践
+  - title: 学习笔记
+    details: 整理学习过程中的知识点与心得体会
+  - title: 生活随笔
+    details: 分享生活中的点滴思考与感悟
+  - title: 简洁至上
+    details: 专注于内容本身，减少不必要的干扰
 
-footer: MIT Licensed | Copyright © 2018-present VuePress Community
+footer: Copyright © 2025-present 7788博客 | 由VuePress驱动
 ---
 
-This is the content of home page. Check [Home Page Docs][default-theme-home] for more details.
-
-[default-theme-home]: https://vuejs.press/reference/default-theme/frontmatter.html#home-page
+欢迎来到我的个人博客空间，这里主要分享我在技术开发、学习成长以及生活中的各种思考和记录。希望通过这些内容能与您产生共鸣。

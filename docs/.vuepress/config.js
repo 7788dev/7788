@@ -10,33 +10,11 @@ export default defineUserConfig({
   head: [
     ['meta', { name: 'viewport', content: 'width=device-width, initial-scale=1.0' }],
     ['meta', { name: 'keywords', content: '博客,技术,生活,7788' }],
-    // Giscus 评论脚本
-    ['script', { 
-      src: 'https://giscus.app/client.js',
-      'data-repo': '7788dev/7788',
-      'data-repo-id': 'R_kgDOPNmcIA',
-      'data-category': 'Announcements',
-      'data-category-id': 'DIC_kwDOPNmcIM4CtCgS',
-      'data-mapping': 'pathname',
-      'data-strict': '0',
-      'data-reactions-enabled': '1',
-      'data-emit-metadata': '0',
-      'data-input-position': 'top',
-      'data-theme': 'preferred_color_scheme',
-      'data-lang': 'zh-CN',
-      crossorigin: 'anonymous',
-      async: true
-    }]
   ],
 
   theme: defaultTheme({
-    // 使用默认 VuePress 图标和 logo
-    // 不指定 logo 将使用默认的
-    
-    // 主题设置
-    colorMode: 'light',
-    colorModeSwitch: true,
-
+    // 首页设置
+    home: '/',
     // 导航栏
     navbar: [
       { text: '首页', link: '/' },
@@ -44,7 +22,6 @@ export default defineUserConfig({
       { text: '分类', link: '/category/' },
       { text: '标签', link: '/tag/' },
       { text: '时间线', link: '/timeline/' },
-      { text: '关于', link: '/about/' }
     ],
 
     // 侧边栏
@@ -57,18 +34,6 @@ export default defineUserConfig({
     // 主题插件
     plugins: {
       mediumZoom: true,
-      // 评论容器
-      comment: {
-        provider: 'Giscus',
-        repo: '7788dev/7788',
-        repoId: 'R_kgDOPNmcIA',
-        category: 'Announcements',
-        categoryId: 'DIC_kwDOPNmcIM4CtCgS',
-        mapping: 'pathname',
-        reactionsEnabled: '1',
-        theme: 'preferred_color_scheme',
-        lang: 'zh-CN'
-      }
     },
 
     // 页脚
@@ -77,7 +42,10 @@ export default defineUserConfig({
 
     // 最后更新时间
     lastUpdated: true,
-    lastUpdatedText: '最后更新'
+    lastUpdatedText: '最后更新',
+
+    // 禁用贡献者显示（包含邮箱）
+    contributors: false,
   }),
 
   plugins: [
@@ -87,14 +55,13 @@ export default defineUserConfig({
 
       getInfo: ({ frontmatter, title, data }) => ({
         title,
-        author: frontmatter.author || '匿名',
+        author: frontmatter.author || 'looks', // 默认作者设为looks
         date: frontmatter.date || null,
         category: frontmatter.category || [],
         tag: frontmatter.tag || [],
         excerpt: typeof frontmatter.excerpt === 'string'
           ? frontmatter.excerpt
           : data?.excerpt || '',
-        // 已移除 cover 封皮字段
       }),
 
       excerptFilter: ({ frontmatter }) =>
