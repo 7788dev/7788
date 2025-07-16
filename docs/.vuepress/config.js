@@ -31,9 +31,6 @@ export default defineUserConfig({
 
     // 博客相关配置
     blog: {
-      // 这里的路径需要和您的文章实际存放路径一致
-      // 假设您的文章都放在 `posts` 目录下
-      dir: 'posts/',
       // 默认作者
       author: 'looks',
       // 文章默认摘要长度
