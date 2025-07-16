@@ -8,7 +8,7 @@ actions:
     link: /article/
     type: primary
   - text: 关于本站
-    link: /about/
+    link: /about.html
     type: secondary
 
 features:
