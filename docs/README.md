@@ -1,6 +1,5 @@
 ---
 home: true
-layout: HomeLayout
 title: 欢迎来到7788博客
 heroText: 记录与分享
 tagline: 技术笔记 · 生活随笔 · 学习心得

@@ -1,6 +1,5 @@
 ---
 title: 关于本站
-layout: AboutLayout
 ---
 
 # 关于 7788 博客
