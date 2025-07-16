@@ -1,16 +1,3 @@
 import comp from "C:/Users/Administrator/Desktop/vuepress-starter/docs/.vuepress/.temp/pages/index.html.vue"
-const data = JSON.parse("{\"path\":\"/\",\"title\":\"Home\",\"lang\":\"en-US\",\"frontmatter\":{\"home\":true,\"title\":\"Home\",\"heroImage\":\"https://vuejs.press/images/hero.png\",\"actions\":[{\"text\":\"Get Started\",\"link\":\"/get-started.html\",\"type\":\"primary\"},{\"text\":\"Introduction\",\"link\":\"https://vuejs.press/guide/introduction.html\",\"type\":\"secondary\"}],\"features\":[{\"title\":\"Simplicity First\",\"details\":\"Minimal setup with markdown-centered project structure helps you focus on writing.\"},{\"title\":\"Vue-Powered\",\"details\":\"Enjoy the dev experience of Vue, use Vue components in markdown, and develop custom themes with Vue.\"},{\"title\":\"Performant\",\"details\":\"VuePress generates pre-rendered static HTML for each page, and runs as an SPA once a page is loaded.\"},{\"title\":\"Themes\",\"details\":\"Providing a default theme out of the box. You can also choose a community theme or create your own one.\"},{\"title\":\"Plugins\",\"details\":\"Flexible plugin API, allowing plugins to provide lots of plug-and-play features for your site.\"},{\"title\":\"Bundlers\",\"details\":\"Default bundler is Vite, while Webpack is also supported. Choose the one you like!\"}],\"footer\":\"MIT Licensed | Copyright © 2018-present VuePress Community\"},\"headers\":[],\"git\":{},\"filePathRelative\":\"README.md\"}")
+const data = JSON.parse("{\"path\":\"/\",\"title\":\"欢迎来到7788博客\",\"lang\":\"zh-CN\",\"frontmatter\":{\"pageLayout\":\"home\",\"title\":\"欢迎来到7788博客\",\"heroText\":\"记录与分享\",\"tagline\":\"技术笔记 · 生活随笔 · 学习心得\",\"actions\":[{\"text\":\"开始阅读\",\"link\":\"/article/\",\"type\":\"primary\"},{\"text\":\"关于本站\",\"link\":\"/about.html\",\"type\":\"secondary\"}],\"features\":[{\"title\":\"技术分享\",\"details\":\"记录开发中的技术解决方案与最佳实践\"},{\"title\":\"学习笔记\",\"details\":\"整理学习过程中的知识点与心得体会\"},{\"title\":\"生活随笔\",\"details\":\"分享生活中的点滴思考与感悟\"},{\"title\":\"简洁至上\",\"details\":\"专注于内容本身，减少不必要的干扰\"}],\"footer\":\"Copyright © 2025-present 7788博客 | 由VuePress驱动\",\"head\":[[\"script\",{\"id\":\"check-dark-mode\"},\";(function () {const um= localStorage.getItem('vuepress-theme-appearance') || 'auto';const sm = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;if (um === 'dark' || (um !== 'light' && sm)) {document.documentElement.classList.add('dark');}})();\"],[\"script\",{\"id\":\"check-mac-os\"},\"document.documentElement.classList.toggle('mac', /Mac|iPhone|iPod|iPad/i.test(navigator.platform))\"]]},\"headers\":[],\"readingTime\":{\"minutes\":0.67,\"words\":201},\"git\":{\"updatedTime\":1752682537000,\"contributors\":[{\"name\":\"Master08s\",\"email\":\"hb111a@icloud.com\",\"commits\":5}]},\"filePathRelative\":\"README.md\",\"categoryList\":[]}")
 export { comp, data }
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updatePageData) {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ data }) => {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  })
-}

@@ -1,4 +1,4 @@
-<template><div><p>This is the content of home page. Check <a href="https://vuejs.press/reference/default-theme/frontmatter.html#home-page" target="_blank" rel="noopener noreferrer">Home Page Docs</a> for more details.</p>
+<template><div><p>欢迎来到我的个人博客空间，这里主要分享我在技术开发、学习成长以及生活中的各种思考和记录。希望通过这些内容能与您产生共鸣。</p>
 </div></template>
 
 

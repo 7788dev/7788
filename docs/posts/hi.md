@@ -2,10 +2,15 @@
 title: 欢迎来到我的技术博客
 date: 2025-07-16
 author: looks
-category: [博客公告]
-tag: [欢迎, 新博客]
+category:
+  - 博客公告
+tag:
+  - 欢迎
+  - 新博客
 excerpt: 这是我的个人技术博客开篇之作，将分享编程技术、开发心得和日常思考。博客刚刚搭建完成，还有很多需要完善的地方。
 sticky: 1
+createTime: 2025/07/16 23:53:44
+permalink: /article/8ezpbtbt/
 ---
 
 ## 博客初衷
