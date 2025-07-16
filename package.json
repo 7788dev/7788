@@ -11,11 +11,9 @@
     "docs:update-package": "npx vp-update"
   },
   "devDependencies": {
-    "@vuepress/bundler-vite": "2.0.0-rc.20",
-    "@vuepress/theme-default": "2.0.0-rc.88",
-    "sass-embedded": "^1.86.0",
+    "@vuepress/bundler-vite": "2.0.0-rc.14",
     "vue": "^3.5.13",
-    "vuepress": "2.0.0-rc.20",
-    "@vuepress/plugin-blog": "2.0.0-rc.86"
+    "vuepress": "2.0.0-rc.14",
+    "vuepress-theme-plume": "1.0.0-rc.81"
   }
 }
