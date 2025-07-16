@@ -6,13 +6,13 @@ export default defineUserConfig({
   // 站点语言
   lang: 'zh-CN',
   // 站点标题
-  title: '7788 博客',
+  title: '7788 Blog',
   // 站点描述
   description: '分享技术与生活',
   // 注入到 HTML <head> 里的标签
   head: [
     ['meta', { name: 'viewport', content: 'width=device-width, initial-scale=1.0' }],
-    ['meta', { name: 'keywords', content: '博客,技术,生活,7788' }],
+    ['meta', { name: 'keywords', content: '博客,技术,生活,7788 blog' }],
   ],
 
   // 使用 plume 主题
@@ -24,19 +24,8 @@ export default defineUserConfig({
       { text: '首页', link: '/' },
       { text: '博客', link: '/blog/', icon: 'material-symbols:article-outline' },
       {
-        text: '分类',
-        link: '/categories/',
-        icon: 'material-symbols:category-outline'
-      },
-      {
-        text: '标签',
-        link: '/tags/',
-        icon: 'material-symbols:tag-outline'
-      },
-      {
-        text: '归档',
-        link: '/archives/',
-        icon: 'material-symbols:archive-outline'
+        text: '十年之旅',
+        link: 'https://778801.xyz',
       },
     ],
 
@@ -53,7 +42,7 @@ export default defineUserConfig({
     
     // 页脚配置
     footer: {
-      copyright: 'Copyright © 2023-present 7788 博客',
+      copyright: 'Copyright © 2025-present 7788 博客',
     },
 
     // 启用最后更新时间
