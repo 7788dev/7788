@@ -28,9 +28,8 @@ export default defineUserConfig({
         link: 'https://778801.xyz',
       },
     ],
-	
-	
-	profile: {
+    
+    profile: {
       name: 'Looks',
       description: 'One Day',
       avatar: 'https://picsum.photos/200/200?random=1',
@@ -43,7 +42,7 @@ export default defineUserConfig({
     social: [
       //{ icon: 'github', link: 'https://github.com/vuepress-theme-plume' },
       // ... more
-    ]，
+    ],
 
     // 博客相关配置
     blog: {
