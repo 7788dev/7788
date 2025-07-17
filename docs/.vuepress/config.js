@@ -17,19 +17,7 @@ export default defineUserConfig({
 
   // 使用 plume 主题
   theme: plumeTheme({
-    // 首页设置
-    home: '/',
-    // 导航栏配置
-    navbar: [
-      { text: '首页', link: '/' },
-      { text: '博客', link: '/blog/', icon: 'material-symbols:article-outline' },
-      {
-        text: '十年之旅',
-        link: 'https://778801.xyz',
-      },
-    ],
-    
-    profile: {
+	  profile: {
       name: 'Looks',
       description: 'One Day',
       avatar: 'https://picsum.photos/200/200?random=1',
@@ -40,8 +28,21 @@ export default defineUserConfig({
     },
     // 社交链接
     social: [
-      //{ icon: 'github', link: 'https://github.com/vuepress-theme-plume' },
+      { icon: 'github', link: 'https://github.com/vuepress-theme-plume' },
       // ... more
+    ],
+	  
+	  
+    // 首页设置
+    home: '/',
+    // 导航栏配置
+    navbar: [
+      { text: '首页', link: '/' },
+      { text: '博客', link: '/blog/', icon: 'material-symbols:article-outline' },
+      {
+        text: '十年之旅',
+        link: 'https://778801.xyz',
+      },
     ],
 
     // 博客相关配置
