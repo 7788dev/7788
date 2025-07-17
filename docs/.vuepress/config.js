@@ -28,6 +28,22 @@ export default defineUserConfig({
         link: 'https://778801.xyz',
       },
     ],
+	
+	
+	profile: {
+      name: 'Looks',
+      description: 'One Day',
+      avatar: 'https://picsum.photos/200/200?random=1',
+      location: 'China',
+      organization: 'null',
+      circle: true, // 是否为圆形头像
+      layout: 'right', // 个人信息在左侧还是右侧，'left' | 'right'
+    },
+    // 社交链接
+    social: [
+      //{ icon: 'github', link: 'https://github.com/vuepress-theme-plume' },
+      // ... more
+    ]，
 
     // 博客相关配置
     blog: {
