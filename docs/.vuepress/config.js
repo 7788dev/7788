@@ -32,7 +32,7 @@ export default defineUserConfig({
     // 导航栏配置
     navbar: [
       { text: '首页', link: '/' },
-      { text: '博客', link: '/blog/', icon: 'material-symbols:article-outline' },
+      //{ text: '博客', link: '/blog/', icon: 'material-symbols:article-outline' },
       {
         text: '十年之旅',
         link: 'https://778801.xyz',
@@ -45,6 +45,10 @@ export default defineUserConfig({
       author: 'looks',
       // 文章默认摘要长度
       excerptLength: 200,
+	  postList: false, // 禁止生成博客文章列表页
+      // tagsLink: '/blog/tags/',
+      // categoriesLink: '/blog/categories/',
+      // archivesLink: '/blog/archives/',
     },
     
     // 页脚配置
