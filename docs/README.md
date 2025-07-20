@@ -1,6 +1,3 @@
 ---
-pageLayout: home
-config:
-  - type: banner
-  - type: blog
+pageLayout: blog
 ---
