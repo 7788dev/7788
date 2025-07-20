@@ -3,12 +3,11 @@ home: true
 config:
   -
     type: banner
+    type: blog
     banner: https://api.pengzhanbo.cn/wallpaper/bing
     bannerMask:
       light: 0.1
       dark: 0.3
-  -
-    type: blog
     hero:
       name: Looks
       tagline: Front End Developer
